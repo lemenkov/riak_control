@@ -44,7 +44,7 @@
 -export([get_my_info/0]).
 
 %% record definitions
--include_lib("riak_control/include/riak_control.hrl").
+-include("../include/riak_control.hrl").
 
 -record(state,
         { vsn         :: version(),
